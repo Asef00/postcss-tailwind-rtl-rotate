@@ -1,0 +1,33 @@
+{
+  "name": "postcss-tailwind-rtl-rotate",
+  "version": "0.0.0",
+  "description": "PostCSS plugin that handles Tailwind rotate clases for RTL mode",
+  "keywords": ["postcss", "css", "postcss-plugin", "postcss-tailwind-rtl-rotate"],
+  "scripts": {
+    "unit": "node --test index.test.js",
+    "test": "npm run unit && eslint ."
+  },
+  "author": "Asef <asefhosseini00@gmail.com>",
+  "license": "MIT",
+  "repository": "Asef00/postcss-tailwind-rtl-rotate",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.27"
+  },
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "postcss": "^8.4.27"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2017
+    },
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": ["eslint:recommended"]
+  }
+}
